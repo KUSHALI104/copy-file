@@ -25,40 +25,21 @@ end the program
 #RegisterNumber:23012804
 '''
 print("Enter the name of source file: ")
-
 sFile=input()
-
 print("Enter the name of target file: ")
-
 tFile=input()
-
 fileHandle=open(sFile,"r")
-
 texts=fileHandle.readlines()
-
 fileHandle.close()
-
 fileHandle=open(tFile, "w")
-
 for s in texts:
-
     fileHandle.write(s)
-
 fileHandle.close()
-
 print("\nFile Copied Successfully!")
 ```
 
 ### OUTPUT:
 ![Screenshot 2023-12-20 231500](https://github.com/KUSHALI104/copy-file/assets/150231135/b1469693-5c43-46ce-ab5a-a88efb1aa365)
-
-
-
 ![Screenshot 2023-12-20 225749](https://github.com/KUSHALI104/copy-file/assets/150231135/acde19b5-ecd5-479d-a9e6-09a10b5403f3)
-
-
-
-
-
 ## RESULT:
 Thus the program is written to copy the contents from one file to another file.
